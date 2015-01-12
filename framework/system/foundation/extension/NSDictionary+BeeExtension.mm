@@ -346,16 +346,6 @@
 // thanks to @ilikeido
 - (id)objectForClass:(Class)clazz
 {
-    if ( [clazz respondsToSelector:@selector(initFromDictionary:)] )
-	{
-        return [clazz performSelector:@selector(initFromDictionary:) withObject:self];
-    }
-
-	if ( [clazz respondsToSelector:@selector(fromDictionary:)] )
-	{
-        return [clazz performSelector:@selector(fromDictionary:) withObject:self];
-    }
-
     id object = [[[clazz alloc] init] autorelease];
 	if ( nil == object )
 		return nil;

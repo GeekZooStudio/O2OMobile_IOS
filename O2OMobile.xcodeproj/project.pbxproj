@@ -616,11 +616,6 @@
 		D8EFAEA11A5C017D003F8CD3 /* bee.services.location.md in Sources */ = {isa = PBXBuildFile; fileRef = D8EFAC491A5C017D003F8CD3 /* bee.services.location.md */; };
 		D8EFAEA21A5C017D003F8CD3 /* ServiceLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EFAC4C1A5C017D003F8CD3 /* ServiceLocation.m */; };
 		D8EFAEA31A5C017D003F8CD3 /* ServiceLocationConvertor.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EFAC4E1A5C017D003F8CD3 /* ServiceLocationConvertor.m */; };
-		D8EFAEB71A5C017D003F8CD3 /* bee.services.push.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EFAC781A5C017D003F8CD3 /* bee.services.push.m */; };
-		D8EFAEB81A5C017D003F8CD3 /* bee.services.push.md in Sources */ = {isa = PBXBuildFile; fileRef = D8EFAC791A5C017D003F8CD3 /* bee.services.push.md */; };
-		D8EFAEB91A5C017D003F8CD3 /* ServicePush.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D8EFAC7B1A5C017D003F8CD3 /* ServicePush.bundle */; };
-		D8EFAEBA1A5C017D003F8CD3 /* ServicePush.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EFAC7D1A5C017D003F8CD3 /* ServicePush.m */; };
-		D8EFAEBB1A5C017D003F8CD3 /* ServicePush_Notification.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EFAC7F1A5C017D003F8CD3 /* ServicePush_Notification.m */; };
 		D8EFAEBC1A5C017D003F8CD3 /* bee.services.share.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EFAC821A5C017D003F8CD3 /* bee.services.share.m */; };
 		D8EFAEBD1A5C017D003F8CD3 /* ServiceShare.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D8EFAC841A5C017D003F8CD3 /* ServiceShare.bundle */; };
 		D8EFAEBE1A5C017D003F8CD3 /* ServiceShare.m in Sources */ = {isa = PBXBuildFile; fileRef = D8EFAC861A5C017D003F8CD3 /* ServiceShare.m */; };
@@ -1782,14 +1777,6 @@
 		D8EFAC4C1A5C017D003F8CD3 /* ServiceLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceLocation.m; sourceTree = "<group>"; };
 		D8EFAC4D1A5C017D003F8CD3 /* ServiceLocationConvertor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceLocationConvertor.h; sourceTree = "<group>"; };
 		D8EFAC4E1A5C017D003F8CD3 /* ServiceLocationConvertor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceLocationConvertor.m; sourceTree = "<group>"; };
-		D8EFAC771A5C017D003F8CD3 /* bee.services.push.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bee.services.push.h; sourceTree = "<group>"; };
-		D8EFAC781A5C017D003F8CD3 /* bee.services.push.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bee.services.push.m; sourceTree = "<group>"; };
-		D8EFAC791A5C017D003F8CD3 /* bee.services.push.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = bee.services.push.md; sourceTree = "<group>"; };
-		D8EFAC7B1A5C017D003F8CD3 /* ServicePush.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ServicePush.bundle; sourceTree = "<group>"; };
-		D8EFAC7C1A5C017D003F8CD3 /* ServicePush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServicePush.h; sourceTree = "<group>"; };
-		D8EFAC7D1A5C017D003F8CD3 /* ServicePush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServicePush.m; sourceTree = "<group>"; };
-		D8EFAC7E1A5C017D003F8CD3 /* ServicePush_Notification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServicePush_Notification.h; sourceTree = "<group>"; };
-		D8EFAC7F1A5C017D003F8CD3 /* ServicePush_Notification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServicePush_Notification.m; sourceTree = "<group>"; };
 		D8EFAC811A5C017D003F8CD3 /* bee.services.share.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bee.services.share.h; sourceTree = "<group>"; };
 		D8EFAC821A5C017D003F8CD3 /* bee.services.share.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = bee.services.share.m; sourceTree = "<group>"; };
 		D8EFAC841A5C017D003F8CD3 /* ServiceShare.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ServiceShare.bundle; sourceTree = "<group>"; };
@@ -3853,7 +3840,6 @@
 			children = (
 				D8EFAF1A1A5C033D003F8CD3 /* bee.services.wizard */,
 				D8EFAC461A5C017D003F8CD3 /* bee.services.location */,
-				D8EFAC761A5C017D003F8CD3 /* bee.services.push */,
 				D8EFAC801A5C017D003F8CD3 /* bee.services.share */,
 				D8EFAC8E1A5C017D003F8CD3 /* bee.services.share.sinaweibo */,
 				D8EFAC9D1A5C017D003F8CD3 /* bee.services.share.tencentopen */,
@@ -3881,29 +3867,6 @@
 				D8EFAC4C1A5C017D003F8CD3 /* ServiceLocation.m */,
 				D8EFAC4D1A5C017D003F8CD3 /* ServiceLocationConvertor.h */,
 				D8EFAC4E1A5C017D003F8CD3 /* ServiceLocationConvertor.m */,
-			);
-			path = source;
-			sourceTree = "<group>";
-		};
-		D8EFAC761A5C017D003F8CD3 /* bee.services.push */ = {
-			isa = PBXGroup;
-			children = (
-				D8EFAC771A5C017D003F8CD3 /* bee.services.push.h */,
-				D8EFAC781A5C017D003F8CD3 /* bee.services.push.m */,
-				D8EFAC791A5C017D003F8CD3 /* bee.services.push.md */,
-				D8EFAC7A1A5C017D003F8CD3 /* source */,
-			);
-			path = bee.services.push;
-			sourceTree = "<group>";
-		};
-		D8EFAC7A1A5C017D003F8CD3 /* source */ = {
-			isa = PBXGroup;
-			children = (
-				D8EFAC7B1A5C017D003F8CD3 /* ServicePush.bundle */,
-				D8EFAC7C1A5C017D003F8CD3 /* ServicePush.h */,
-				D8EFAC7D1A5C017D003F8CD3 /* ServicePush.m */,
-				D8EFAC7E1A5C017D003F8CD3 /* ServicePush_Notification.h */,
-				D8EFAC7F1A5C017D003F8CD3 /* ServicePush_Notification.m */,
 			);
 			path = source;
 			sourceTree = "<group>";
@@ -4222,7 +4185,6 @@
 				D880E1881A5FD4030043661D /* F0_ProfileApplyCell_iPhone.xml in Resources */,
 				D8BBF55A1A502A490053465E /* C17_ApplyFormBoard_iPhone.xml in Resources */,
 				D8BBF5D01A502A490053465E /* F4_RefferalShareCell_iPhone.xml in Resources */,
-				D8EFAEB91A5C017D003F8CD3 /* ServicePush.bundle in Resources */,
 				D8BBF5DE1A502A490053465E /* F8_ReviewBoardCell_iPhone.xml in Resources */,
 				D8BBF5701A502A490053465E /* C5_FilterCell_iPhone.xml in Resources */,
 				D8DB41761A57A94D00C66481 /* Images.xcassets in Resources */,
@@ -4465,7 +4427,6 @@
 				D8EFAD2E1A5C017D003F8CD3 /* Bee_UIRouter.m in Sources */,
 				D8EFAE251A5C017D003F8CD3 /* Bee_Network.m in Sources */,
 				D8BBF5DD1A502A490053465E /* F8_ReviewBoardCell_iPhone.m in Sources */,
-				D8EFAEBB1A5C017D003F8CD3 /* ServicePush_Notification.m in Sources */,
 				D8BBF4FC1A502A490053465E /* LOCATION+Distance.m in Sources */,
 				D8EFAE451A5C017D003F8CD3 /* ASIDataCompressor.m in Sources */,
 				D8EFAD421A5C017D003F8CD3 /* Bee_UIStyle.m in Sources */,
@@ -4526,7 +4487,6 @@
 				D8BBF4F91A502A490053465E /* CommentListModel.m in Sources */,
 				D8EFAE521A5C017D003F8CD3 /* OpenUDID.m in Sources */,
 				D8EFAD6D1A5C017D003F8CD3 /* Bee_UIActivity.m in Sources */,
-				D8EFAEB71A5C017D003F8CD3 /* bee.services.push.m in Sources */,
 				D8BBF5BF1A502A490053465E /* F0_ProfileServiceCell_iPhone.m in Sources */,
 				D8EFAE4C1A5C017D003F8CD3 /* FMDatabase.m in Sources */,
 				D8EFAEC51A5C017D003F8CD3 /* ServiceShare_SinaWeibo.m in Sources */,
@@ -4824,7 +4784,6 @@
 				D8EFAD3E1A5C017D003F8CD3 /* UIViewController+Title.m in Sources */,
 				D8BBF5DB1A502A490053465E /* F8_ReviewBoard_iPhone.m in Sources */,
 				D8EFAD761A5C017D003F8CD3 /* Bee_UIImageView.m in Sources */,
-				D8EFAEBA1A5C017D003F8CD3 /* ServicePush.m in Sources */,
 				D8BBF50A1A502A490053465E /* UserListModel.m in Sources */,
 				D8EFAF341A5C033D003F8CD3 /* ServiceWizard_CustomCell.m in Sources */,
 				D8EFAE271A5C017D003F8CD3 /* Bee_HTTPPackage.mm in Sources */,
@@ -4842,7 +4801,6 @@
 				D8BBF5171A502A490053465E /* FXBlurView.m in Sources */,
 				D8EFAE2E1A5C017D003F8CD3 /* Bee_HTTPConnection2.m in Sources */,
 				D8EFAD921A5C017D003F8CD3 /* UIView+PinchGesture.m in Sources */,
-				D8EFAEB81A5C017D003F8CD3 /* bee.services.push.md in Sources */,
 				D8EFADF81A5C017D003F8CD3 /* NSObject+BeeKeychain.mm in Sources */,
 				D8EFAD181A5C017D003F8CD3 /* Bee_Controller.mm in Sources */,
 				D8EFAEDC1A5C017D003F8CD3 /* ServiceShare_Weixin_Post.m in Sources */,
@@ -4960,8 +4918,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Donglin Li (C57FZJKD84)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Donglin Li (C57FZJKD84)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_NS_ASSERTIONS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -4986,7 +4944,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = O2OMobile;
-				PROVISIONING_PROFILE = "9741bbbb-e5c5-42be-9575-63713d6d7461";
+				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
 			};
@@ -5001,8 +4959,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_OBJC_ARC = NO;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Donglin Li (C57FZJKD84)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Donglin Li (C57FZJKD84)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_NS_ASSERTIONS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -5027,7 +4985,7 @@
 				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = O2OMobile;
-				PROVISIONING_PROFILE = "9741bbbb-e5c5-42be-9575-63713d6d7461";
+				PROVISIONING_PROFILE = "";
 				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
 			};

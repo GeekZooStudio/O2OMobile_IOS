@@ -43,7 +43,6 @@
 
 #import "F8_ReviewBoard_iPhone.h"
 #import "F9_SettingBoard_iPhone.h"
-#import "F10_ApplyBoard_iPhone.h"
 #import "F11_IntroBoard_iPhone.h"
 
 #import "F0_LargePhotoCell_iPhone.h"
@@ -153,10 +152,10 @@ ON_CREATE_VIEWS( signal )
                     item.data = self.userModel;
                     item.size = CGSizeAuto;
                     
-//                    item = self.list.nextItem;
-//                    item.clazz = [F0_ProfileApplyCell_iPhone class];
-//                    item.data = self.userModel;
-//                    item.size = CGSizeAuto;
+                    item = self.list.nextItem;
+                    item.clazz = [F0_ProfileApplyCell_iPhone class];
+                    item.data = self.userModel;
+                    item.size = CGSizeAuto;
                 }
                 else if ( self.userModel.user.user_group.integerValue == USER_GROUP_FREEMAN_INREVIEW )
                 {
@@ -181,11 +180,6 @@ ON_CREATE_VIEWS( signal )
                     item.clazz = [F0_ProfileHeaderCell_iPhone class];
                     item.data = self.userModel;
                     item.size = CGSizeAuto;
-                    
-//                    item = self.list.nextItem;
-//                    item.clazz = [F0_ProfileCashCell_iPhone class];
-//                    item.data = self.userModel;
-//                    item.size = CGSizeAuto;
                     
                     if ( self.userModel.user.brief && self.userModel.user.brief.length )
                     {
@@ -454,9 +448,7 @@ ON_SIGNAL3( F0_ProfileRateCell_iPhone, mask, signal )
 
 ON_SIGNAL3( F0_ProfileApplyCell_iPhone, apply, signal )
 {
-    F10_ApplyBoard_iPhone * board = [F10_ApplyBoard_iPhone board];
-    board.backWhenSucceed = YES;
-    [self.stack pushBoard:board animated:YES];
+    [self presentMessageTips:__TEXT(@"please_buy_authorized_edition")];
 }
 
 #pragma mark - F0_ProfileHelpCell_iPhone

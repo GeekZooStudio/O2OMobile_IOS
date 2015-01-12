@@ -240,6 +240,6 @@
     <string name="invitecode_request_failed">无法获取邀请码</string>    
     <string name="paste_tips">已复制到粘贴板</string>
     <string name="share_title">O2OMobile</string>
-    <string name="share_content">感谢使用O2OMobile开源产品，最新资讯请前往 http://www.o2omobile.com.cn</string>
+    <string name="share_content">感谢使用O2OMobile开源产品，最新资讯请前往 http://www.o2omobile.cn</string>
     <string name="please_buy_authorized_edition">请购买授权版本</string>
 </resources>

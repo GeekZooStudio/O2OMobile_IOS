@@ -34,21 +34,21 @@
 #pragma mark - APP Environment
 
 #undef APP_DEVELOPMENT
-#define APP_DEVELOPMENT  (1)
+#define APP_DEVELOPMENT  (0)
 
 #pragma mark - APP API URL
 
 #undef APP_DEVELOPMENT_API_URL
-#define APP_DEVELOPMENT_API_URL @"http://demo.o2omobile.com.cn"
+#define APP_DEVELOPMENT_API_URL @"http://dev.o2omobile.cn"
 
 #undef APP_TEST_API_URL
-#define APP_TEST_API_URL @"http://demo.o2omobile.com.cn"
+#define APP_TEST_API_URL @"http://dev.o2omobile.cn"
 
 #undef APP_PRODUCT_API_URL
-#define APP_PRODUCT_API_URL @"http://demo.o2omobile.com.cn"
+#define APP_PRODUCT_API_URL @"http://demo.o2omobile.cn"
 
 #undef APP_ABOUT_US_URL
-#define APP_ABOUT_US_URL @"www.o2omobile.com.cn"
+#define APP_ABOUT_US_URL @"www.o2omobile.cn"
 
 #pragma mark - Protocol version
 

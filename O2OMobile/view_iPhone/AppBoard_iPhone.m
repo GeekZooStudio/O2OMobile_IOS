@@ -45,10 +45,8 @@
 #import "D4_OrderCommentListBoard_iPhone.h"
 #import "WebViewBoard_iPhone.h"
 #import "C1_PublishOrderBoard_iPhone.h"
-#import "F10_ApplyBoard_iPhone.h"
 
 #import "bee.services.location.h"
-#import "bee.services.push.h"
 #import "BeeAlertView.h"
 
 #pragma mark -
@@ -123,7 +121,6 @@ ON_CREATE_VIEWS( signal )
     [_router map:@"home"		toClass:[A0_HomeBoard_iPhone class]];
     [_router map:@"publish"		toClass:[E0_PublishedOrdersBoard_iPhone class]];
     [_router map:@"receive"		toClass:[E2_ReceivedOrdersBoard_iPhone class]];
-    [_router map:@"apply"		toClass:[F10_ApplyBoard_iPhone class]];
     [_router map:@"message"		toClass:[H0_MessageBoard_iPhone class]];
     [_router map:@"fifth"		toClass:[A0_HomeBoard_iPhone class]];
     [_router map:@"refferal"	toClass:[F4_RefferalBoard_iPhone class]];
@@ -487,7 +484,6 @@ ON_SIGNAL3( A2_MenuBoardCell_iPhone, receive, signal )
             case USER_GROUP_NEWBEE:
             {
                 [self presentMessageTips:__TEXT(@"please_buy_authorized_edition")];
-                [_router open:@"apply" animated:NO];
             }
                 break;
             case USER_GROUP_FREEMAN_INREVIEW:
