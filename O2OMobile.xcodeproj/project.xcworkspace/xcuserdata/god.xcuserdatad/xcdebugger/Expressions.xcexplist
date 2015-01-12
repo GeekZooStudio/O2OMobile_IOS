@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[F10_ApplyBoard_iPhone handleUISignal_BeeUITextField_DID_ACTIVED:]:F10_ApplyBoard_iPhone.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "signal.sourceView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

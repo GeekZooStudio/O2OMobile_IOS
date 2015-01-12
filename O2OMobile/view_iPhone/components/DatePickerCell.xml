@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="DatePickerCell">
+  <col class="wrapper">
+      <row class="toolbar-wrapper">
+          <view id="bg"/>
+          <button class="barItem" id="cancel">取消</button>
+          <button class="barItem" id="done">确定</button>
+      </row>
+      <UIDatePicker id="picker"/>
+  </col>
+   
+  <style type="text/css">
+    .wrapper {
+        width: 100%;
+        height: 100%;
+    }
+
+    .toolbar-wrapper {
+        width: 100%;
+        height: 44px;
+    }
+
+    #bg {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-color: #ffffff;
+    }
+  
+    .barItem {
+        width: 60px;
+        height: 40px;
+        color: #39bced;
+        font-size: 17px;
+    }
+
+    #cancel {
+        margin-left: 10px;
+        margin-top: 2px;
+    }
+
+    #done {
+        position: absolute;
+        top: 2px;
+        right: 2px;
+    }
+
+    #picker {
+        width: 100%;
+        height: 216px;
+        background-color: #ffffff;
+    }
+  </style>
+</ui>

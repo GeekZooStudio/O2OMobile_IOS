@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="MenuButton_iPhone">
+
+	<linear orientation="h" class="wrapper">
+		<image id="icon"/>
+		<BadgeNumber_iPhone id="badge"/>
+	</linear>
+
+	<style type="text/css">
+
+		.wrapper {
+			width: 40px;
+			height: 100%;
+		}
+
+		#icon {
+			width: 100%;
+			height: 100%;
+			image-mode: center;
+			image-src: url(navbar_01.png);
+		}
+
+		#badge {
+			position: absolute;
+			right: 0px;
+			top: 0px;
+			width: 22px;
+			height: 16px;
+		}
+
+	</style>
+
+</ui>

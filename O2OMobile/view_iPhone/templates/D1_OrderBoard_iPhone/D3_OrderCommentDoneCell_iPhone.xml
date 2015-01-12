@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="D3_OrderCommentDoneCell_iPhone">
+    <col class="wrapper">
+        <image class="icon"></image>
+        <label class="title">@{order_evaluate_complete}</label>
+        <label class="subtitle">@{share_order}</label>
+        <D1_OrderButton_iPhone id="share" class="button">@{share_evalute}</D1_OrderButton_iPhone>
+    </col>
+    
+    <style type="text/css">
+        .wrapper {
+            width: 100%;
+            height: 500px;
+        }
+    
+        .icon {
+            margin-top: 40xp;
+            float: center;
+            width: 58px;
+            height: 73px;
+            image-src: url(e3_review_over.png);
+        }
+        .title {
+            width: 100%;
+            height: 100px;
+            text-align: center;
+            color: #666;
+            font-size: 20px;
+        }
+        
+        .subtitle {
+            width: 100%;
+            height: 30px;
+            text-align: center;
+            color: #666;
+            font-size: 16px;
+        }
+        
+        .button {
+            position: absolute;
+            width: 90%;
+            height: 47px;
+            background-color: #25BDE8;
+            border-radius: 5px;
+            font-size: 20px;
+            left: 5%;
+        }
+    
+        #share {
+            bottom: 10px;
+        }
+    
+        #back {
+            bottom: 70px;
+        }
+    
+        @media (device:iphone4) {
+            .icon {
+                margin-top: 30xp;
+            }
+            .wrapper {
+                width: 100%;
+                height: 416px;
+            }
+        }
+    
+    </style>
+</ui>

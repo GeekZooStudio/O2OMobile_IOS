@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="C4_EditSignatureBoard_iPhone">
+
+    <col class="wrapper">
+		<textarea id="signature" placeholder="@{personal_signature}"/>
+		<label id="remain"/>
+    </col>
+
+    <style type="text/css">
+
+        .wrapper {
+            width: 100%;
+            height: auto;
+        }
+
+		#signature {
+			color: #666;
+			width: 100%;
+			height: 200px;
+			padding: 10px;
+			maxlength: 20;
+			font-size: 14px;
+			font-weight: lighter;
+			text-align: left;
+			border-radius: 5px;
+			border-width: 1px;
+			border-color: #eee;
+			background-color: white;
+			return-key: done;
+		}
+		
+		#remain {
+			color: #666;
+			width: 100%;
+			height: 14px;
+			padding-right: 10px;
+			font-size: 14px;
+			font-weight: lighter;
+			text-align: right;
+		}
+
+	</style>
+
+</ui>

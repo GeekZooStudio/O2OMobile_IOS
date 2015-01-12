@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="F10_ApplyBoardCell_iPhone">
+    
+    <col class="wrapper">
+        
+		<col class="field2">
+			<image id="avatar" class="avatar"/>
+		</col>
+		
+		<row id="select_avatar" class="field">
+			<image class="bg"/>
+			<label class="title">本人照片</label>
+			<label class="upload">上传图片</label>
+		</row>
+		
+        <row class="field">
+            <image class="bg"/>
+            <label class="title">真实姓名</label>
+            <input class="text" id="realname" placeholder="填写全名"></input>
+        </row>
+        
+        <row id="select_gender" class="field">
+            <image class="bg"/>
+            <label class="title">性别</label>
+            <label class="text" id="gender">选择性别</input>
+                <image class="arrow"/>
+                </row>
+		
+        <row class="field">
+            <image class="bg"/>
+            <label class="title">身份证</label>
+            <input class="text" id="ident" placeholder="身份证号码"></input>
+        </row>
+		
+		<row class="field">
+			<image class="bg"/>
+			<label class="title">银行卡号码</label>
+			<input class="text" id="cardno" placeholder="银行卡号码"></input>
+		</row>
+		
+        <row id="statement">
+            <label class="statement-label">点击申请即同意《自由服务人注册协议》</label>
+            <view class="statement-line"/>
+        </row>
+        
+        <button id="submit">提交申请</button>
+		
+    </col>
+    
+    <style type="text/css">
+        
+        .wrapper {
+			width: 100%;
+			height: 522px;
+        }
+
+        .field2 {
+            width: 100%;
+            height: 120px;
+        }
+        
+        .avatar {
+            width: 90px;
+            height: 90px;
+            background-color: #ccc;
+            margin-top: 20px;
+            float: center;
+            image-mode: fit;
+            border-radius: 45px;
+        }
+        
+        .field {
+            width: 100%;
+            height: 45px;
+            margin-top: 16px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        
+        .bg {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            image-mode: stretch;
+            image-src: url(field_bg.png);
+        }
+        
+        .title {
+            width: 35%;
+            height: 100%;
+            color: #999;
+            font-size: 14px;
+            font-weight: bold;
+            text-align: center;
+        }
+        
+        .text {
+            width: 65%;
+            height: 100%;
+            color: #666;
+            font-size: 14px;
+            font-weight: lighter;
+            text-align: right;
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+        
+        .upload {
+            width: 65%;
+            height: 45px;
+            color: white;
+            background-color: #39bced;
+            font-size: 14px;
+            font-weight: lighter;
+            text-align: center;
+            border-radius: 6px;
+        }
+        
+        #realname {
+            maxlength: 10;
+            return-key: next;
+        }
+        
+        #ident {
+            return-key: next;
+        }
+        
+        #gender {
+            color: #ccc;
+            font-size: 15px;
+            padding-right: 50px;
+        }
+        
+        #cardno {
+            return-key: done;
+        }
+        
+        .arrow {
+            position: absolute;
+            top: 0px;
+            right: 10px;
+            width: 30px;
+            height: 100%;
+            image-mode: center;
+            image-src: url(B3-arrow-down.png);
+        }
+        
+        #submit {
+            position: absolute;
+            left: 0px;
+            bottom: 10px;
+            width: 100%;
+            height: 44px;
+            font-size: 14px;
+            padding-left: 10px;
+            padding-right: 10px;
+            background-color: #39bced;
+            border-radius: 4px;
+        }
+    
+        #statement {
+            width: auto;
+            height: 30px;
+            float: center;
+            margin-top: 5px;
+        }
+        .statement-line {
+            height: 1px;
+            position: absolute;
+            bottom: 6px;
+            width: 97%;
+            background-color: #4a4a4a;
+        }
+        .statement-label {
+            color: #4a4a4a;
+            font-size: 14px;
+            width: auto;
+            height: 100%;
+        }
+	</style>
+
+</ui>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="D1_OrderEmployerCell_iPhone">
+    <col class="wrapper">
+        <row class="row">
+            <image id="avatar" class="left"/>
+            <col class="center">
+                <label id="username" class="name title"></label>
+                <label id="time" class="time subtitle"></label>
+            </col>
+            <button id="phone" class="right"/>
+        </row>
+    </col>
+    
+    <style type="text/css">
+        .wrapper {
+        margin-left: 20px;
+        width: 280px;
+        height: 70px;
+        }
+        #avatar {
+        width: 50px;
+        height: 50px;
+        background-color: #39bced;
+        border-radius: 25px;
+        margin-right: 5px;
+        image-mode: fit;
+        }
+        .row {
+        height: 50px;
+        width: 100%;
+        margin-top: 20px;
+        }
+        .left {
+        width: 55px;
+        height: auto;
+        }
+        .center {
+        margin-left: 20px;
+        width: 180px;
+        height: 50px;
+        }
+        .right {
+        width: 20px;
+        height: 20px;
+        margin-top: 10px;
+        }
+        #phone {
+            image: url(d1_phone_icon.png);
+        }
+        .subtitle {
+        color: #666;
+        height: 20px;
+        font-size: 13px;
+        text-align: right;
+        }
+        .title {
+        color: black;
+        font-size: 13px;
+        text-align: left;
+        height: 20px;
+        }
+        .name {
+        font-size: 20px;
+        }
+        .time {
+        margin-top: 10px;
+        font-size: 12px;
+        text-align: left;
+        }
+    </style>
+</ui>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>89C3B667-3C3B-4786-B950-74360A602FB5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ban</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>98F3C394-E463-493F-92F6-AF734D3FF000</key>
+		<string>svn://geek-zoo.com/project/o2omobile.cn</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>client/iOS/ban/ban.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>98F3C394-E463-493F-92F6-AF734D3FF000</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>98F3C394-E463-493F-92F6-AF734D3FF000</key>
+		<string>svn://geek-zoo.com/project/o2omobile.cn</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>svn://geek-zoo.com/project/o2omobile.cn/client/iOS/ban/ban.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>98F3C394-E463-493F-92F6-AF734D3FF000</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>98F3C394-E463-493F-92F6-AF734D3FF000</string>
+			<key>IDESourceControlWCCName</key>
+			<string>o2omobile.cn</string>
+		</dict>
+	</array>
+</dict>
+</plist>

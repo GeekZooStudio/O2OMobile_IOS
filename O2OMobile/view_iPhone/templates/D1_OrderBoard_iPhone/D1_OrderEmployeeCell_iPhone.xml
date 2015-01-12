@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="D1_OrderEmployeeCell_iPhone">
+    <col class="wrapper">
+        <label class="header">@{receiver}</label>
+        <view class="line"/>
+        <row class="employee">
+            <image id="avatar" class="left"/>
+            <col class="center">
+                <label id="username" class="name title"></label>
+                <label id="time" class="time subtitle"></label>
+            </col>
+            <button id="phone" class="right"/>
+        </row>
+        <view class="line"/>
+    </col>
+    
+    <style type="text/css">
+        .wrapper {
+            width: 100%;
+            height: 137px;
+        }
+        #avatar {
+            width: 50px;
+            height: 50px;
+            background-color: #39bced;
+            border-radius: 25px;
+            margin-right: 5px;
+            image-mode: fit;
+        }
+        .employee {
+            height: 50px;
+            width: 80%;
+            margin: 20px 0 10px 20px;
+        }
+        .left {
+            width: 55px;
+            height: auto;
+        }
+        .center {
+            margin-left: 20px;
+            width: 180px;
+            height: 50px;
+        }
+        .right {
+            width: 20px;
+            height: 20px;
+            top: 10px;
+            right: 15px;
+            position: absolute;
+        }
+        #phone {
+            image: url(d1_phone_icon.png);
+        }
+        .subtitle {
+            color: #666;
+            height: 20px;
+            font-size: 13px;
+            text-align: right;
+        }
+        .title {
+            color: black;
+            font-size: 13px;
+            text-align: left;
+            height: 20px;
+        }
+        .name {
+            font-size: 20px;
+        }
+        .time {
+            margin-top: 10px;
+            font-size: 12px;
+            text-align: left;
+        }
+        .green {
+            color: #39bced;
+        }
+        .gray {
+            color: #999;
+        }
+        .header {
+            width: 100%;
+            height: 20px;
+            color: #9b9b9b;
+            text-align: center;
+            font-size: 16px;
+            margin-top: 15px;
+        }
+        .line {
+            height: 1px;
+            width: 100%;
+            background-color: #d8d8d8;
+            margin-top: 10px;
+        }
+    </style>
+</ui>

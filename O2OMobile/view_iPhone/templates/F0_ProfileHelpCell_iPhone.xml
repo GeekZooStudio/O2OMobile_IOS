@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="F0_ProfileHelpCell_iPhone">
+	
+	<row class="wrapper">
+        <button id="help">@{request_he_help}</button>
+	</row>
+	
+	<style type="text/css">
+		
+		ui {
+			background-color: white;
+		}
+
+		.wrapper {
+			width: 100%;
+			height: 64px;
+		}
+		
+		#help {
+			width: 100%;
+			height: 100%;
+			padding: 10px;
+			color: white;
+			font-size: 16px;
+			font-weight: bold;
+			border-radius: 4px;
+			background-color: #39bced;
+		}
+		
+	</style>
+</ui>

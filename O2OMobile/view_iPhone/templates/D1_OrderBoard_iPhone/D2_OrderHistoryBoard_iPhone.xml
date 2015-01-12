@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="D2_OrderHistoryBoard_iPhone">
+    <col class="wrapper">
+        <view id="line"/>
+        <list id="list"/>
+    </col>
+    
+    <style type="text/css">
+        .wrapper {
+        width: 100%;
+        height: 100%;
+        }
+        #list {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        }
+        #line {
+        width: 1px;
+        height: 100%;
+        position: absolute;
+        background-color: #d8d8d8;
+        left: 30px;
+        }
+    </style>
+</ui>

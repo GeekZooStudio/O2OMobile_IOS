@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="F0_ProfileBoard_iPhone">
+    
+	<col class="wrapper">
+		<list id="list"/>
+		
+		<image id="navbar"/>
+		<button id="left"/>
+		<button id="right"/>
+	</col>
+
+    <style type="text/css">
+        
+        .wrapper {
+            width: 100%;
+            height: 100%;
+        }
+    
+        #cover {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 200px;
+           image-src: url(profile_bg.png);
+           mode: fill;
+        }
+        
+        #list {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+        }
+        
+        #navbar {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 64px;
+        }
+        
+        #left {
+            position: absolute;
+            left: 0px;
+            top: 20px;
+            width: 44px;
+            height: 44px;
+            font-size: 14px;
+            font-weight: bold;
+            image-mode: center;
+            image-src: url(a3_btn_back.png);
+        }
+        
+        #right {
+            position: absolute;
+            right: 0px;
+            top: 20px;
+            width: 44px;
+            height: 44px;
+            font-size: 14px;
+            font-weight: bold;
+            image-mode: center;
+            image-src: url(settings.png);
+        }
+    
+	</style>
+
+</ui>

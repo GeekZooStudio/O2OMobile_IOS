@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="F0_ProfileServiceCell_iPhone">
+
+	<row id="mask" class="wrapper">
+		<image id="icon"/>
+		<label id="name"></label>
+		<label id="price"></label>
+	</row>
+
+	<style type="text/css">
+      
+	  ui {
+		background-color: white;
+	  }
+
+		.wrapper {
+			width: 100%;
+			height: 54px;
+		}
+
+		#icon {
+			width: 54px;
+			height: 100%;
+			padding: 10px;
+			border-radius: 17px;
+			border-width: 2px;
+			border-color: #ccc;
+			image-mode: fit;
+			image-src: url(b0_icon_1.png);
+		}
+
+		#name {
+			width: 200px;
+			height: 100%;
+			color: #333;
+			font-size: 20px;
+			font-weight: lighter;
+			text-align: left;
+		}
+
+		#price {
+			position: absolute;
+			top: 0px;
+			right: 10px;
+			width: 150px;
+			height: 100%;
+			color: #999;
+			font-size: 14px;
+			font-weight: lighter;
+			text-align: right;
+		}
+
+	</style>
+	
+</ui>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="E0_SegmentCell_iPhone">
+	
+	<linear orientation="h" class="wrapper">
+		<button id="one" class="item left active"/>
+		<button id="two" class="item right normal"/>
+	</linear>
+	
+	<style type="text/css">
+		
+		.wrapper {
+			width: 202px;
+			height: 30px;
+		}
+    
+        .item {
+            width: 100px;
+            height: 100%;
+            font-size: 16px;
+            font-weight: lighter;
+        }
+    
+        .left {
+            margin-left: 1px;
+        }
+        
+        .normal {
+            color: #39bced;
+        }
+        
+        .active {
+            color: #FFFFFF;
+        }
+        
+        .left.normal {
+            background-image: url(e0_nav_left_normal.png);
+        }
+        .left.active {
+            background-image: url(e0_nav_left_selected.png);
+        }
+        
+        .right.normal {
+            background-image: url(e0_nav_right_normal.png);
+        }
+        .right.active {
+            background-image: url(e0_nav_right_selected.png);
+        }
+    
+        </style>
+	
+</ui>

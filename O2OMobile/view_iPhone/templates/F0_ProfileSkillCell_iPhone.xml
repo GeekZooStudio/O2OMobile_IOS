@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="F0_ProfileSkillCell_iPhone">
+
+	<row class="wrapper">
+		<image id="icon"/>
+		<label id="name">身份认证</label>
+	</row>
+
+   <style type="text/css">
+      
+      .wrapper {
+          width: 100%;
+          height: 100%;
+      }
+  
+      #icon {
+          width: 30%;
+          height: 100%;
+		  padding: 2px;
+		  image-mode: center;
+		  image-src: url(b2_selected_icon.png);
+      }
+
+      #name {
+          width: 70%;
+          height: 100%;
+          color: #333;
+          font-size: 13px;
+          font-weight: lighter;
+          text-align: left;
+      }
+  
+  </style>
+</ui>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="A2_MenuBoardCell_iPhone">
+    
+  <col class="wrapper">
+      <col class="profile-wrapper">
+          <row class="avatar-wrapper">
+              <view id="header-bg"/>
+              <image id="avatar" class="avatar"/>
+          </row>
+          <label id="name"></label>
+          <label id="balance"></label>
+          <button id="profile"></button>
+      </col>
+      <col class="menu-wrapper">
+          <row class="item-wrapper">
+              <view class="line"/>
+              <image class="item-icon" id="home-item-icon"/>
+              <label id="home-title" class="item-text">@{home_page}</label>
+              <image id="ac1" class="item-accessory" src="ico_right_grey.png"/>
+              <button id="home" class="item-mask"/>
+          </row>
+          <row class="item-wrapper">
+              <view class="line"/>
+              <image class="item-icon" id="publish-item-icon"/>
+              <label id="publish-title" class="item-text">@{publish}</label>
+              <image id="ac2" class="item-accessory" src="ico_right_grey.png"/>
+              <button id="publish" class="item-mask"/>
+          </row>
+          <row class="item-wrapper">
+              <view class="line"/>
+              <image class="item-icon" id="receive-item-icon"/>
+              <label id="receive-title" class="item-text">@{receive}</label>
+              <image id="ac3" class="item-accessory" src="ico_right_grey.png"/>
+              <button id="receive" class="item-mask"/>
+          </row>
+          <row class="item-wrapper">
+              <view class="line"/>
+              <image class="item-icon" id="message-item-icon"/>
+              <label id="message-title" class="item-text">@{message}</label>
+              <BadgeNumber_iPhone id="message-badge" class="badge"/>
+              <image id="ac4" class="item-accessory" src="ico_right_grey.png"/>
+              <button id="message" class="item-mask"/>
+          </row>
+          <row class="item-wrapper">
+              <view class="line"/>
+              <image class="item-icon" id="invitation-item-icon"/>
+              <label id="invitation-title" class="item-text">@{invite_firend}</label>
+              <label id="invitation"></label>
+              <image id="ac5" class="item-accessory" src="ico_right_grey.png"/>
+              <button id="refferal" class="item-mask"/>
+          </row>
+      </col>
+  </col>
+   
+  <style type="text/css">
+      
+      .wrapper {
+          width: 100%;
+          height: 100%;
+      }
+  
+      .profile-wrapper {
+          width: 100%;
+          height: 218px;
+      }
+  
+      .avatar-wrapper {
+          width: 90px;
+          height: 90px;
+          top: 40px;
+          float: center;
+      }
+  
+      #header-bg {
+          position: absolute;
+          left: 0px;
+          top: 0px;
+          width: 100%;
+          height: 100%;
+          padding: 0px;
+          border-radius: 45px;
+          background-color: #FEFEFE;
+          shadow-color: black;
+          shadow-offset: 0.5 0.5;
+          shadow-opacity: 1.0;
+      }
+  
+      .avatar {
+          width: 100%;
+          height: 100%;
+          padding: 4px;
+          position: absolute;
+          image-mode: fit;
+          border-radius: 41px;
+      }
+  
+      #name {
+          width: 100%;
+          height: 20px;
+          color: #ffffff;
+          font-size: 16px;
+          font-weight: bold;
+          text-align: center;
+          margin-top: 20px;
+          margin-left: 0px;
+      }
+  
+      #balance {
+          width: 100%;
+          height: 20px;
+          color: #ffffff;
+          font-size: 15px;
+          font-weight: bold;
+          text-align: center;
+          margin-top: 10px;
+          margin-left: 0px;
+      }
+  
+      #profile {
+          width: 130px;
+          height: 150px;
+          position: absolute;
+          margin-top: 20px;
+          margin-left: 35px;    
+      }
+  
+      .menu-wrapper {
+          width: 100%;
+          height: 276px;
+      }
+  
+      .item-wrapper {
+          width: 100%;
+          height: 50px;
+      }
+  
+      .line {
+          width: 80%;
+          height: 1px;
+          bottom: 0px;
+          left: 55px;
+          position: absolute;
+          background-color: #ffffff 0.1;
+      }
+
+      .item-icon {
+            width: 30px;
+            height: 30px;
+            v-float: center;
+            margin-left: 15px;
+        }
+  
+      .item-text {
+          color: #ffffff;
+          width: 150px;
+          height: 100%;
+          margin-left: 10px;
+          font-size: 18px;
+          font-weight: lighter;
+          text-align: left;
+      }
+  
+      .badge {
+          width: 32px;
+          height: 18px;
+          position: absolute;
+          right: 30px;
+          top: 16px;
+      }
+  
+      .item-accessory {
+          width: 30px;
+          height: 14px;
+          float: right;
+          v-float: center;
+      }
+
+      #home-item-icon {
+          image-src: url(a3_ico_home.png);
+      }
+
+      #publish-item-icon {
+          image-src: url(a3_ico_issue.png);
+      }
+
+      #receive-item-icon {
+          image-src: url(a3_ico_receive.png);
+      }
+
+      #message-item-icon {
+          image-src: url(a3_ico_message.png);
+      }
+
+      #invitation-item-icon {
+          image-src: url(a3_ico_friends.png);
+      }
+      
+      .item-mask {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          left: 0px;
+          top: 0px;
+      }
+  
+      #invitation {
+          width: 80px;
+          height: 100%;
+          color: #4A4A4A;
+          font-size: 15px;
+          text-align: right;
+          position: absolute;
+          margin-left: 90px;
+      }
+  
+  </style>
+</ui>

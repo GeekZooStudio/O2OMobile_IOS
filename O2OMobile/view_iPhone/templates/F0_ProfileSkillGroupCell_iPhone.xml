@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="F0_ProfileSkillGroupCell_iPhone">
+
+	<col id="mask" class="wrapper">
+		<list id="list"/>
+		<view id="bottom-line"/>
+	</col>
+
+	<style type="text/css">
+	  
+	  ui {
+		background-color: white;
+	  }
+
+		.wrapper {
+			width: 100%;
+			height: auto;
+		}
+
+		#list {
+			width: 100%;
+			height: auto;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+
+		.row {
+			width: 100%;
+			height: 30px;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		
+		.edit-area {
+			width: 100%;
+			height: 32px;
+		}
+		
+		.edit-text {
+			position: absolute;
+			top: 0px;
+			right: 10px;
+			width: 80px;
+			height: 30px;
+			color: #39bced;
+			font-size: 14px;
+			font-weight: bold;
+			text-align: right;
+		}
+
+		#bottom-line {
+			position: absolute;
+			left: 0px;
+			bottom: 0px;
+			width: 100%;
+			height: 1px;
+			background-color: #ccc;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+
+	</style>
+</ui>

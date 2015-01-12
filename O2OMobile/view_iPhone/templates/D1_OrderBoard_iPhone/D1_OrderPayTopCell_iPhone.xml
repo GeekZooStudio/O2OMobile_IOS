@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="D1_OrderPayTopCell_iPhone">
+    <col class="wrapper">
+        <image id="background"/>
+        <row class="row separator">
+            <label class="subtitle left">@{order_sn}</label>
+            <label id="order_sn" class="title right">-</label>
+        </row>
+        <row class="row separator">
+            <label class="subtitle left">@{sevice_type}</label>
+            <label id="service_type" class="title right">-</label>
+        </row>
+        <row class="row">
+            <label class="subtitle left">@{sevice_location}</label>
+            <label id="location" class="title right autosize">-
+            </label>
+        </row>
+        <row class="row separator2">
+            <label class="subtitle left">@{service_price}</label>
+            <label id="service_price" class="title right green">-</label>
+        </row>
+        <row class="row">
+            <label class="subtitle left">@{transation_money}</label>
+            <label id="transaction_price" class="title right green">-</label>
+        </row>
+    </col>
+    <style type="text/css">
+        #background {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            image: url(pay_info_bg.png);
+            image-mode: stretch;
+        }
+        .wrapper {
+            width: 90%;
+            height: 213;
+            float: center;
+            margin-bottom: 10px;
+        }
+        .row {
+            height: 20px;
+            width: 100%;
+            margin-top: 5px;
+        }
+        .separator {
+            margin-top: 15px;
+        }
+        .separator2 {
+            margin-top: 45px;
+        }
+        .left {
+            margin-left: 15px;
+            width: 55px;
+            height: 100%;
+        }
+        .right {
+            margin-left: 20px;
+            width: 175px;
+            height: 100%;
+        }
+        .subtitle {
+            color: #666;
+            height: 20px;
+            font-size: 13px;
+            text-align: right;
+        }
+        .title {
+            color: #333;
+            font-size: 15px;
+            text-align: left;
+            height: 20px;
+        }
+        
+        .autosize {
+            line-num: 0;
+            height: auto;
+        }
+        .green {
+            color: #39bced;
+            text-align: right;
+            font-size: 20px;
+        }
+    </style>
+</ui>

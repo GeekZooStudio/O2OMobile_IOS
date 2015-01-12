@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="D1_OrderBoard_iPhone">
+    <col class="wrapper">
+        <list id="list"/>
+        <D1_OrderButton_iPhone id="action" class="button"/>
+        <D1_OrderButton_iPhone id="cancel" class="button">@{cancel_order}</D1_OrderButton_iPhone>
+    </col>
+    
+    <style type="text/css">
+        #list {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            background-color: #f7f7f7;
+            insets: 0 0 69px 0;
+        }
+    
+        #action {
+            left: 5%;
+            bottom: 10px;
+        }
+        
+        #cancel {
+            left: 5%;
+            bottom: 65px;
+            background-color: #25BDE8;
+        }
+        .button {
+            position: absolute;
+            width: 90%;
+            height: 47px;
+            background-color: #25BDE8;
+            border-radius: 5px;
+            color: white;
+            font-size: 20px;
+            float: center;
+        }
+        .button:disabled {
+            background-color: #25BDE8;
+        }
+        
+        .wrapper {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</ui>

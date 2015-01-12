@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="C1_RecordAnimationCell_iPhone">
+    <!--
+     <row></row>
+     -->
+    <col class="wrapper">
+        <col class="record-wrapper">
+            <image class="bg"/>
+            <image class="wave" id="wave"/>
+            <label class="desc">@{loosen_hand_end_record}</label>
+        </col>
+    </col>
+    
+    <style type="text/css">
+        .wrapper {
+            width: 100%;
+            height: 100%;
+        }
+    
+        .record-wrapper{
+            width: 204px;
+            height: 154px;
+            margin-top: 100px;
+            float: center;
+        }
+
+        .bg{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            image-src: url(B4-recoding-layer.png);
+        }
+
+        .wave {
+            width:117px;
+            height: 45px;
+            position: absolute;
+            margin-top: 40px;
+            margin-left:44px;
+            image-src: url(b4_record_mirophone_1.png);
+        }
+
+        .desc {
+            width:100%;
+            height: 40px;
+            position: absolute;
+            margin-top: 100px;
+            text-align: center;
+            color: #4A4A4A;
+            font-size: 14px;
+        }
+    
+        </style>
+</ui>

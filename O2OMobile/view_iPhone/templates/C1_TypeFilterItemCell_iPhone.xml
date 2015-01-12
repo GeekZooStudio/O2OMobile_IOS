@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="C1_TypeFilterItemCell_iPhone">
+
+    <col class="wrapper">
+        <row class="item-wrapper">
+            <label id="title" class="item-text"></label>
+            <image id="indicator" class="indicator"/>
+            <button id="mask" class="item-mask"/>
+            <view class="line"/>
+        </row>
+    </col>
+    
+    <style type="text/css">
+        .wrapper {
+            width: 100%;
+            height: 100%;
+        }
+    
+        .item-wrapper {
+            width: 100%;
+            height: 50px;
+        }
+        
+        .item-text {
+            color: #4A4A4A;
+            width: 110px;
+            height: 100%;
+            margin-left: 15px;
+            font-size: 15px;
+            font-weight: lighter;
+            text-align: left;
+        }
+        
+        .indicator {
+            width: 40px;
+            height: 16px;
+            float: right;
+            v-float: center;
+        }
+        
+        .item-mask {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0px;
+            top: 0px;
+        }
+        
+        .line {
+            width: 100%;
+            height: 1px;
+            bottom: 0px;
+            position: absolute;
+            background-color: #EEEEEE;
+        }
+    
+        </style>
+</ui>

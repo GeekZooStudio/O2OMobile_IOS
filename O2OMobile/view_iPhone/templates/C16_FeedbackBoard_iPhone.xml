@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="C16_FeedbackBoard_iPhone">
+
+    <col class="wrapper">
+		<textarea id="feedback" placeholder="@{complain_text}"/>
+    </col>
+
+    <style type="text/css">
+
+        .wrapper {
+            width: 100%;
+            height: 200px;
+        }
+
+		#feedback {
+			color: #666;
+			width: 100%;
+			height: 100%;
+			padding: 10px;
+			font-size: 14px;
+			font-weight: lighter;
+			text-align: left;
+			border-radius: 5px;
+			border-width: 1px;
+			border-color: #eee;
+			background-color: white;
+			return-key: done;
+		}
+
+	</style>
+
+</ui>

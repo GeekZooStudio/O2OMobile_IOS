@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="A0_HomeTitleView_iPhone">
+  <col class="wrapper">
+      <label id="title"></label>
+      <pager id="pager"/>
+  </col>
+   
+  <style type="text/css">
+    .wrapper {
+        width: 180px;
+        height: 100%;
+    }
+    
+    #title {
+        width: 70%;
+        height: 25px;
+        color: #39bced;
+        text-align: center;
+        font-size: 17px;
+        float: center;
+        margin-top: 5px;
+    }
+    
+    #pager {
+        width: 70%;
+        height: 10px;
+        float: center;
+        margin-bottom: 5px;
+    }
+  </style>
+</ui>

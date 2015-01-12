@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="C2_CircleProgressCell">
+    
+	<col class="wrapper">
+        <MDRadialProgressView id="progress"/>
+        <label id="progress-count"></label>
+    </col>
+   
+	<style type="text/css">
+        .wrapper {
+            width: 100%;
+            height: 100%;
+        }
+        
+        #progress {
+            width: 100%;
+            height: 100%;
+        }
+        
+        #progress-count {
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            font-size: 40px;
+            color: #39bced;
+            position: absolute;
+            margin-top : 75px;
+            margin-left: 75px;
+        }
+        
+	</style>
+</ui>

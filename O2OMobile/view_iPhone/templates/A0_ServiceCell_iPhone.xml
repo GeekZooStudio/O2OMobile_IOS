@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="A0_ServiceCell_iPhone">
+
+  <col id="mask" class="wrapper">
+      <image id="icon" class="icon"/>
+      <label id="title" class="title"></label>
+      <view id="bottom-line"></view>
+      <view id="right-line"></view>
+  </col>
+   
+  <style type="text/css">
+        .wrapper {
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+    }
+      
+      .icon {
+          width: 64px;
+          height: 64px;
+          float: center;
+          v-float: center;
+          image-mode: fit;
+      }
+
+      .title {
+          position: absolute;
+          width: 100%;
+          height: 20px;
+          color: #030303;
+          text-align: center;
+          font-size: 14px;
+          font-weight: lighter;
+          bottom: 20px;
+          float: center;
+      }
+
+      #bottom-line {
+          width: 100%;
+          height: 1px;
+          background-color: #E5E5E5;
+          position: absolute;
+          bottom: 0px;
+      }
+
+      #right-line {
+          width: 1px;
+          height: 100%;
+          background-color: #E5E5E5;
+          position: absolute;
+          right: 0px;
+      }
+  
+  </style>
+</ui>

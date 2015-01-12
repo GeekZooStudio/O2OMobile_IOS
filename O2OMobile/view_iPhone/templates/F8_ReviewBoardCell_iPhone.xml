@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="F8_ReviewBoardCell_iPhone">
+
+    <row class="wrapper">
+        <col class="avatar-wrapper">
+            <image id="avatar"/>
+        </col>
+        <col class="content-wrapper">
+            <label id="name"></label>
+            <row class="status-line">
+                <row class="star-wrapper">
+                    <image id="star1" class="star"></image>
+                    <image id="star2" class="star"></image>
+                    <image id="star3" class="star"></image>
+                    <image id="star4" class="star"></image>
+                    <image id="star5" class="star"></image>
+                </row>
+                <label id="time"></label>
+            </row>
+            <label id="text"></label>
+        </col>
+        <view id="bottom-line"/>
+    </row>
+    
+    <style type="text/css">
+        
+        .wrapper {
+            width: 100%;
+            height: auto;
+        }
+    
+        .avatar-wrapper {
+            width: 64px;
+            height: 64px;
+        }
+        
+        #avatar {
+            width: 44px;
+            height: 44px;
+            float: center;
+            margin-top: 10px;
+            background-color: gray;
+            border-radius: 22px;
+            image-mode: fit;
+        }
+        
+        #name {
+            width: 100%;
+            height: 24px;
+            font-size: 14px;
+            font-weight: lighter;
+            color: black;
+            text-align: left;
+        }
+        
+        .content-wrapper {
+            width: 75%;
+            height: auto;
+            margin-right: 10px;
+            margin-left: 4px;
+            margin-top: 6px;
+            margin-bottom: 6px;
+        }
+        
+        .status-line {
+            width: 100%;
+            height: 20px;
+        }
+        
+        .star-wrapper {
+            width: 64px;
+            height: 100%;
+            margin-top: 0px;
+            margin-left: 0px;
+        }
+        
+        .star {
+            width: 10px;
+            height: 100%;
+            margin-top: 0px;
+            margin-right: 5px;
+            image-src: url(b7_star_off.png);
+        }
+        
+        #time {
+            width: 160px;
+            height: 20px;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            font-size: 12px;
+            font-weight: lighter;
+            color: #999;
+            text-align: right;
+        }
+        
+        #text {
+            width: 100%;
+            height: auto;
+            font-size: 13px;
+            font-weight: lighter;
+            text-align: left;
+            color: gray;
+            margin-top: 4px;
+            margin-bottom: 5px;
+            line-break: tail-trunc;
+            line-num: 0;
+        }
+        
+        #bottom-line {
+            position: absolute;
+            left: 0px;
+            bottom: 0px;
+            width: 100%;
+            height: 1px;
+            background-color: #ccc;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    
+        </style>
+</ui>

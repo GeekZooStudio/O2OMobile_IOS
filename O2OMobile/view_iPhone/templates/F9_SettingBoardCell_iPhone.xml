@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="F9_SettingBoardCell_iPhone">
+  <!--
+    <row></row>
+  -->
+  <col class="wrapper">
+	  
+	<row id="nickname" class="form-item">
+	  <label class="title">@{nickname}</label>
+	  <image class="arrow"/>
+	  <view class="bottom-line"/>
+	</row>
+
+	<row id="avatar" class="form-item">
+        <label class="title">@{my_avatar}</label>
+		<image class="arrow"/>
+		<view class="bottom-line"/>
+	</row>
+
+	<row id="signature" class="form-item">
+        <label class="title">@{edit_signature}</label>
+		<image class="arrow"/>
+		<view class="bottom-line"/>
+	</row>
+
+	<row id="intro" class="form-item">
+        <label class="title">@{edit_brief}</label>
+		<image class="arrow"/>
+		<view class="bottom-line"/>
+	</row>
+
+	<row id="service" class="form-item">
+        <label id="service-title" class="title">@{my_service}</label>
+		<image id="service-arrow" class="arrow"/>
+		<view class="bottom-line"/>
+	</row>
+
+	<row id="password" class="form-item">
+        <label class="title">@{change_login_password}</label>
+		<image class="arrow"/>
+		<view class="bottom-line"/>
+	</row>
+
+	<row id="feedback" class="form-item">
+        <label class="title">@{feedback}</label>
+		<image class="arrow"/>
+		<view class="bottom-line"/>
+	</row>
+
+	<row id="about" class="form-item">
+        <label class="title">@{about_us}</label>
+		<image class="arrow"/>
+		<view class="bottom-line"/>
+	</row>
+	
+    <button id="signout">@{account_logout}</button>
+
+  </col>
+  
+  <style type="text/css">
+	  
+	  .wrapper {
+		  width: 100%;
+		  height: auto;
+	  }
+	  
+	  .form-item {
+		  width: 100%;
+		  height: 54px;
+	  }
+	  
+	  .title {
+		  width: 100px;
+		  height: 100%;
+		  color: #333;
+		  font-size: 14px;
+		  font-weight: lighter;
+		  text-align: left;
+		  margin-left: 20px;
+	  }
+
+	  .text {
+		  width: 160px;
+		  height: 100%;
+		  color: #333;
+		  font-size: 14px;
+		  font-weight: lighter;
+		  text-align: left;
+		  margin-left: 16px;
+	  }
+	  
+	  .arrow {
+		  position: absolute;
+		  right: 10px;
+		  top: 10px;
+		  width: 34px;
+		  height: 34px;
+		  image-mode: center;
+		  image-src: url(icon_indicator.png);
+	  }
+
+	  .switch {
+		  position: absolute;
+		  right: 30px;
+		  top: 15px;
+		  width: 60px;
+		  height: 34px;
+	  }
+	  
+	  .bottom-line {
+		  position: absolute;
+		  left: 0px;
+		  bottom: 0px;
+		  width: 100%;
+		  height: 1px;
+		  background-color: #ccc;
+		  /*
+		  padding-left: 10px;
+		  padding-right: 10px;
+		   */
+	  }
+  
+	  #signout {
+			width: 100%;
+			height: 44px;
+			padding-left: 10px;
+			padding-right: 10px;
+			margin-top: 10px;
+			margin-bottom: 10px;
+			font-size: 14px;
+			background-color: #F65858;
+			border-radius: 4px;
+	  }
+		
+        @media(device:ios7) {
+            .switch {
+                right: 10px;
+                top: 10px;
+            }
+        }
+
+  </style>
+  
+</ui>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="C2_OrderDistributeBoard_iPhone">
+    <!--
+     <row></row>
+     -->
+    <col class="wrapper">
+        <label id="note" class="note">@{please_wait_now_notificationing}</label>
+        <label id="desc" class="desc"></label>
+        
+        <col class="progress-wrapper">
+            <label id="above" class="text">@{informed}</label>
+            <label id="below" class="text">@{nearby_receiver}</label>
+            <C2_CircleProgressCell id="progressCell"/>
+        </col>
+        
+        <col class="bottom-area">
+            <view class="bg"/>
+            <label class="detail-text">@{look_up_order}</label>
+            <button id="detail"></button>
+        </col>
+    </col>
+    
+    <style type="text/css">
+        .wrapper {
+            width: 100%;
+            height: 100%;
+        }
+    
+        .note {
+            width: 100%;
+            height: 30px;
+            text-align: center;
+            font-size: 16px;
+            color: #4A4A4A;
+            margin-top: 30px;
+        }
+        
+        .desc {
+            width: 100%;
+            height: 25px;
+            text-align: center;
+            font-size: 13px;
+            color: #797979;
+            margin-top: 0px;
+        }
+        
+        .progress-wrapper {
+            width: 200px;
+            height: 200px;
+            margin-top: 20px;
+            float: center;
+        }
+        
+        .text {
+            width: 100%;
+            height: 20px;
+            text-align: center;
+            font-size: 18px;
+            color: #9b9b9b;
+        }
+    
+        #above {
+            position: absolute;
+            margin-top: 50px;
+        }
+    
+        #below {
+            position: absolute;
+            margin-top: 130px;
+        }
+    
+        #progressCell {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .bottom-area {
+            position: absolute;
+            left: 0px;
+            bottom: 0px;
+            width: 100%;
+            height: 60px;
+        }
+        
+        .bg {
+            width: 100%;
+            height: 100%;
+            left: 0px;
+            bottom: 0px;
+            position: absolute;
+            alpha: 0.5;
+            background-color: #D2D2D2;
+        }
+        
+        .detail-text {
+            width: 100%;
+            height: 100%;
+            padding: 6px;
+            font-size: 17px;
+            font-weight: bold;
+            text-align: center;
+            border-radius: 4px;
+            text-color: #ffffff;
+            background-color: #39bced;
+            font-weight: lighter;
+        }
+        
+        #detail {
+            width: 100%;
+            height: 100%;
+            padding: 6px;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 4px;
+            background-color: clearColor;
+            position: absolute;
+        }
+    
+    </style>
+</ui>

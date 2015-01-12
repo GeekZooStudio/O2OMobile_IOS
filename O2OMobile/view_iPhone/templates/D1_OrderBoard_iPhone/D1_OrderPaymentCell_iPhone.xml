@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="D1_OrderPaymentCell_iPhone">
+    <col class="wrapper">
+        <D1_OrderPayTopCell_iPhone id="top"/>
+        <D1_OrderPayBottomCell_iPhone id="bottom"/>
+    </col>
+    
+    <style type="text/css">
+        .wrapper {
+            width: 100%;
+            height: 100%;
+        }
+    
+       #top {
+            top: -270px;
+            width: 100%;
+            height: 270px;
+            position: absolute;
+        }
+    
+        #bottom {
+            width: 100%;
+            height: 190px;
+            position: absolute;
+            bottom: -190px;
+        }
+    </style>
+</ui>

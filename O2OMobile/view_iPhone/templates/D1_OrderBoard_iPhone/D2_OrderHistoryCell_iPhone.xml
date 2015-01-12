@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="D2_OrderHistoryCell_iPhone">
+    <row class="wrapper">
+        <image id="indictor"/>
+        <label id="title"/>
+    </row>
+    
+    <style type="text/css">
+        .wrapper {
+            width: 100%;
+            height: 40px;
+        }
+        #indictor {
+            margin-left: 20px;
+            margin-top: 10px;
+            width: 20px;
+            height: 20px;
+            mode: fit;
+        }
+        #title {
+            margin-left: 40px;
+            width: 200px;
+            height: 40px;
+            font-size: 16px;
+        }
+    </style>
+</ui>

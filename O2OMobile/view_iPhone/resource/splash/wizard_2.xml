@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="ServiceWizard_Cell">
+    <!--
+     <row></row>
+     -->
+    <col class="wrapper">
+        <image class="bg"/>
+    </col>
+    
+    <style type="text/css">
+        .wrapper {
+        width: 100%;
+        height: 100%;
+        }
+        
+        .bg {
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        left: 0px;
+        image-mode: fill;
+        image-src: url(splash5-2.png);
+        }
+        
+        @media (device:iphone4) {
+        .bg {
+        image-src: url(splash4-2.png);
+        }
+        }
+        
+    </style>
+    
+</ui>

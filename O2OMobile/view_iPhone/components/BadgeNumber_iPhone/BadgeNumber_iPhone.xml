@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="BadgeNumber_iPhone">
+
+	<linear orientation="h" class="wrapper">
+		<image id="bg"/>
+		<label id="num"/>
+	</linear>
+
+	<style type="text/css">
+
+		.wrapper {
+			width: 100%;
+			height: 100%;
+		}
+
+		#bg {
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			width: 100%;
+			height: 100%;
+			image-mode: stretch;
+			background-color: #FF3B53;
+			border-radius: 8px;
+		}
+
+		#num {
+			width: 100%;
+			height: 100%;
+			color: white;
+			font-size: 12px;
+			font-weight: lighter;
+			text-align: center;
+		}
+
+	</style>
+
+</ui>

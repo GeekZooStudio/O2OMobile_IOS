@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="B1_SignupVerifyCell_iPhone">
+    <col class="wrapper">
+        <image id="logo"></image>
+        <row class="input-wrapper">
+            <CPUITextFiled id="mobilePhone" class="mobile-input" placeholder="@{mobile_phone}"></CPUITextFiled>
+            <view class="input-line"></view>
+        </row>
+        <row class="input-wrapper">
+            <CPUITextFiled id="verifyCode" class="verifyCode-input" placeholder="@{verify_code}"></CPUITextFiled>
+            <view class="v-line"></view>
+            <linear orientation="v" class="send-wrapper">
+                <label id="status" class="send-text">@{get_vetify_code}</label>
+                <button id="send" class="send-mask"></button>
+            </linear>
+            <view class="input-line"></view>
+        </row>        
+        
+        <linear orientation="v" class="next-wrapper">
+            <label class="next-text">@{next}</label>
+            <button id="next" class="next-mask"></button>
+        </linear>
+        <linear orientation="v" class="signin-wrapper">
+            <label class="signin-text">@{haved_account_login_now}</label>
+            <view class="signin-line"></view>
+            <button id="signin" class="signin-mask"></button>
+        </linear>
+    </col>
+    
+    <style type="text/css">
+        .wrapper {
+            width: 100%;
+            height: 100%;
+        }
+    
+        #logo{
+            width: 100%;
+            height: 50px;
+            margin-top: 100px;
+            margin-left: 0px;
+            margin-bottom: 20px;
+            image-src: url(a1_logo.png);
+        }
+        
+        .input-wrapper {
+            width: 90%;
+            height: 40px;
+            float: center;
+            margin-top: 20px;
+        }
+        
+        .mobile-input {
+            width: 100%;
+            height: 100%;
+            font-size: 17px;
+            text-color: #B2B2B2;
+            text-align: left;
+            margin-left: 0px;
+            input-clear: never;
+        }
+        
+        .input-line {
+            width: 100%;
+            height: 1px;
+            position: absolute;
+            bottom: 0px;
+            background-color: #B2B2B2;
+        }
+        
+        .verifyCode-input {
+            width: 65%;
+            height: 40px;
+            font-size: 17px;
+            text-color: #B2B2B2;
+            text-align: left;
+            margin-left: 0px;
+            input-clear: never;
+        }
+        
+        #mobilePhone {
+            input-return-key: next;
+            input-keyboard: number;
+            maxlength: 11;
+        }
+        
+        #verifyCode {
+            input-keyboard: number;
+            input-return-key: done;
+            maxlength: 6;
+        }
+        
+        .v-line {
+            width: 1px;
+            height: 28px;
+            margin-left: 0px;
+            margin-top: 5px;
+            background-color: #CCCCCC;
+        }
+        
+        .send-wrapper{
+            width: 35%;
+            height: 100%;
+            margin-left: 0px;
+        }
+        
+        .send-text {
+            width: 100%;
+            height: 100%;
+            font-size: 15px;
+            text-align: center;
+            text-color: #4A4A4A;
+            float: center;
+            font-weight: lighter;
+        }
+        
+        .send-mask {
+            width: 250px;
+            height: 100%;
+            float: center;
+            border-radius: 20px;
+        }
+        
+        .next-wrapper{
+            width: 90%;
+            height: 40px;
+            margin-top: 50px;
+            float: center;
+        }
+        
+        .next-text {
+            width: 100%;
+            height: 100%;
+            font-size: 17px;
+            text-align: center;
+            text-color: #ffffff;
+            border-radius: 5px;
+            background-color: #25BDE8;
+        }
+        
+        .next-mask {
+            width: 100%;
+            height: 100%;
+            background-color: clearColor;
+            position: absolute;
+        }
+        
+        .signin-wrapper{
+            width: 136px;
+            height: 20px;
+            margin-top: 30px;
+            float: center;
+        }
+        
+        .signin-text {
+            width: 100%;
+            height: 100%;
+            font-size: 15px;
+            text-align: center;
+            float: center;
+            text-color: #585858;
+        }
+        
+        .signin-line{
+            width: 100%;
+            height: 1px;
+            position: absolute;
+            bottom: 0px;
+            background-color: #585858;
+        }
+        
+        .signin-mask {
+            width: 100%;
+            height: 100%;
+            background-color: clearColor;
+            position: absolute;
+            left: 0px;
+        }
+        
+        @media(device:iphone4) {
+            #logo { margin-top: 60px; }
+        }
+    
+        </style>
+</ui>

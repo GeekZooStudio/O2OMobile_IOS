@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="H0_MessageBoard_iPhone">
+
+	<col class="wrapper">
+		<list id="list1"/>
+        <list id="list2"/>
+	</col>
+
+	<style type="text/css">
+		
+		.wrapper {
+			width: 100%;
+			height: 100%;
+		}
+
+		#list1 {
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			width: 100%;
+			height: 100%;
+		}
+        
+        #list2 {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+		}
+
+	</style>
+	
+</ui>

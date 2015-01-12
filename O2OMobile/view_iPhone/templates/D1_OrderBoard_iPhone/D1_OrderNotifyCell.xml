@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="D1_OrderNotifyCell">
+    <row class="wrapper">
+        <row id="content">
+            <label class="text">@{informed}</label>
+            <label id="count" class="highlight"></label>
+            <label class="text">@{nearby_receiver}</label>
+        </row>
+    </row>
+    <style type="text/css">
+        .wrapper {
+            width: 100%;
+            height: 100px;
+        }
+        #content {
+            width: auto;
+            height: 100px;
+            float: center;
+        }
+        .text {
+            width:auto;
+            height: 100%;
+            font-size: 16px;
+            color: #666;
+        }
+        .highlight {
+            width: auto;
+            height: 100%;
+            font-size: 40px;
+            color: #39bced;
+            margin: 0 10px;
+        }
+    </style>
+</ui>

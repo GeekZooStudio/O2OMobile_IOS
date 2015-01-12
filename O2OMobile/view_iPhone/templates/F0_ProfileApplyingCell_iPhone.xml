@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="F0_ProfileApplyingCell_iPhone">
+	
+	<row class="wrapper">
+		<button id="applying">自由人申请审核中</button>
+	</row>
+	
+	<style type="text/css">
+		
+		.wrapper {
+			width: 100%;
+			height: 64px;
+		}
+		
+		#applying {
+			width: 100%;
+			height: 100%;
+			padding: 10px;
+			color: white;
+			font-size: 16px;
+			font-weight: bold;
+			border-radius: 4px;
+			background-color: #999;
+		}
+		
+	</style>
+	
+</ui>

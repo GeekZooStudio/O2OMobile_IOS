@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="D3_OrderShareCell_iPhone">
+    <col class="wrapper">
+        <image id="bg"/>
+        <row class="activities">
+            <col id="weixin" class="activity">
+                <image class="activity-icon" src="e6_share_friendline.png"/>
+                <label class="activity_label">@{friend_line}</label>
+            </col>
+            <col id="weibo" class="activity">
+                <image class="activity-icon" src="e6_sina.png"/>
+                <label class="activity_label">@{sina}</label>
+            </col>
+            <col id="qzone" class="activity">
+                <image class="activity-icon" src="e6_qzone.png"/>
+                <label class="activity_label">@{qzone}</label>
+            </col>
+        </row>
+        <button id="cancel">@{cancel_share}</button>
+    </col>
+    
+    <style type="text/css">
+        
+        .wrapper {
+            width: 100%;
+            height: 100%;
+        }
+    
+        #bg {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            background-color: black 0.6;
+        }
+        
+        .activities {
+            margin-top: 10px;
+            width: 100%;
+            height: 60%;
+            padding-left: 6px;
+            padding-right: 6px;
+        }
+        
+        .activity {
+            width: 33.33%;
+            height: 100%;
+        }
+        
+        .activity-bg {
+            position: absolute;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            image-mode: center;
+        }
+        
+        .activity-icon {
+            width: 100%;
+            height: 60%;
+            image-mode: center;
+            margin-top: 10%;
+        }
+        
+        .activity_label {
+            width: 100%;
+            height: 30%;
+            color: white;
+            font-size: 14px;
+            text-align: center;
+        }
+        
+        #cancel {
+            border-radius: 4px;
+            width: 90%;
+            height: 50px;
+            font-weight: lighter;
+            font-size: 16px;
+            color: #666;
+            background-color: white;
+            float: center;
+        }
+    </style>
+    
+</ui>

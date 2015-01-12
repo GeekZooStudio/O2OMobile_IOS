@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="B2_SignupCell_iPhone">
+    <col class="wrapper">
+        <button id="back" class="back-mask"></button>
+        <image id="logo"></image>
+
+        <row class="input-wrapper">
+            <CPUITextFiled id="name" class="input" placeholder="@{nickname}"></CPUITextFiled>
+            <view class="input-line"></view>
+        </row>
+        <row class="input-wrapper">
+            <CPUITextFiled id="password" class="input password" placeholder="@{password}"></CPUITextFiled>
+            <view class="input-line"></view>
+        </row>
+        <row class="input-wrapper">
+            <CPUITextFiled id="confirmPassword" class="input password" placeholder="@{confirm_password}"></CPUITextFiled>
+            <view class="input-line"></view>
+        </row>                    
+        
+        <!--CPUITextFiled id="inviteCode" class="input" placeholder="邀请码（选填）"></CPUITextFiled>
+        <row id="statement">
+            <label class="statement-label">点击注册即同意《服务条款》</label>
+            <view class="statement-line"/>
+        </row-->
+        <linear orientation="v" class="signup-wrapper">
+            <label class="signup-text">@{complete_signup}</label>
+            <button id="signup" class="signup-mask"></button>
+        </linear>
+    </col>
+    
+    <style type="text/css">
+        .wrapper {
+            width: 100%;
+            height: 100%;
+        }
+    
+        #statement {
+            width: auto;
+            height: 30px;
+            float: center;
+            margin-top: 20px;
+        }
+    
+        .statement-line {
+            height: 1px;
+            position: absolute;
+            bottom: 6px;
+            width: 97%;
+            background-color: white;
+        }
+    
+        .statement-label {
+            color: white;
+            font-size: 14px;
+            width: auto;
+            height: 100%;
+        }
+    
+        .back-mask {
+            width: 44px;
+            height: 44px;
+            position: absolute;
+            margin-top: 20px;
+            margin-left: 0px;
+            image-src: url(pre_signup.png);
+        }
+        
+        #logo {
+            width: 100%;
+            height: 50px;
+            margin-top: 100px;
+            margin-left: 0px;
+            margin-bottom: 20px;
+            image-src: url(a1_logo.png);
+        }
+    
+        .input-wrapper {
+            width: 90%;
+            height: 40px;
+            float: center;
+            margin-top: 20px;
+        }
+        
+        .input {
+            width: 100%;
+            height: 100%;
+            font-size: 17px;
+            text-color: #B2B2B2;
+            text-align: left;
+            input-clear: never;
+        }
+    
+        .input-line {
+            width: 100%;
+            height: 1px;
+            position: absolute;
+            bottom: 0px;
+            background-color: #B2B2B2;
+        }
+        
+        #name {
+            maxlength: 16;
+            input-return-key: next;
+        }
+        
+        .password {
+            input-keyboard: ascii;
+            input-secure: yes;
+            input-return-key: next;
+            maxlength: 20;
+        }
+    
+        #confirmPassword {
+            input-return-key: done;
+        }
+    
+        #inviteCode {
+            input-return-key: done;
+            maxlength: 6;
+        }
+
+        .signup-wrapper{
+            width: 90%;
+            height: 40px;
+            margin-top: 50px;
+            float: center;
+        }
+    
+        .signup-text {
+            width: 100%;
+            height: 100%;
+            font-size: 17px;
+            text-align: center;
+            text-color: #ffffff;
+            border-radius: 5px;
+            background-color: #25BDE8;
+        }
+        
+        .signup-mask {
+            width: 100%;
+            height: 100%;
+            background-color: clearColor;
+            position: absolute;
+        }
+    
+        @media(device:iphone4) {
+            #logo { margin-top: 60px; }
+        }
+    </ui>

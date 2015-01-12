@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="F0_ProfileIntroCell_iPhone">
+
+	<col id="mask" class="wrapper">
+		<label id="intro"></label>
+		<row id="view_all" class="edit-area">
+            <label class="edit-text">@{look_up_all}</label>
+		</row>
+		<view id="bottom-line"/>
+	</col>
+
+	<style type="text/css">
+      
+	  ui {
+		background-color: white;
+	  }
+
+		.wrapper {
+			width: 100%;
+			height: auto;
+		}
+
+		#intro {
+			width: 100%;
+			height: auto;
+			padding-left: 14px;
+			padding-right: 14px;
+			text-align: left;
+			font-size: 16px;
+			font-weight: lighter;
+			color: #333;
+			line-break: tail-trunc;
+			line-num: 10;
+			margin-top: 8px;
+		}
+
+		.edit-area {
+			width: 100%;
+			height: 36px;
+		}
+
+		.edit-text {
+			position: absolute;
+			top: 0px;
+			right: 10px;
+			width: 80px;
+			height: 30px;
+			color: #39bced;
+			font-size: 14px;
+			font-weight: bold;
+			text-align: right;
+		}
+
+		#bottom-line {
+			position: absolute;
+			left: 0px;
+			bottom: 1px;
+			width: 100%;
+			height: 1px;
+			background-color: #ccc;
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+			
+	</style>
+
+</ui>

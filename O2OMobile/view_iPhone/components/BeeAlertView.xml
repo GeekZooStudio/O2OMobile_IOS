@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="BeeAlertView">
+    <col class="wrapper">
+        <col class="content">
+            <view id="background"/>
+            <row class="title-row">
+                <image id="indictor"/>
+                <label id="title"/>
+            </row>
+            <label id="message"/>
+            <button id="button">@{got_it}</button>
+        </col>
+    </col>
+    
+    <style type="text/css">
+        .wrapper {
+            width: 100%;
+            height: 100%;
+        }
+        .content {
+            width: 250px;
+            height: 185px;
+            float: center;
+            margin-top: 130px;
+        }
+        #background {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color:white;
+            border-radius: 5px;
+        }
+        .title-row {
+            width: 120px;
+            height: 25px;
+            float: center;
+            margin-top: 45px;
+        }
+        #indictor {
+            width: 25px;
+            height: 25px;
+        }
+        #title {
+            width: 120px;
+            height: 100%;
+            color: #39bced;
+            font-size: 20px;
+            margin-left: 5px;
+        }
+        #message {
+            width: 210px;
+            height: 30px;
+            color: #39bced;
+            font-size: 14px;
+            margin-left: 20px;
+            text-align: center;
+        }
+        #button {
+            width: 210px;
+            height: 47px;
+            border-radius: 5px;
+            font-size: 20px;
+            color: white;
+            margin-left: 20px;
+            margin-top: 15px;
+        }
+    </style>
+</ui>

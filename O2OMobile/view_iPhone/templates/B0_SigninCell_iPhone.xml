@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="B0_SigninCell_iPhone">
+    <col class="wrapper">
+        <image id="logo"></image>
+        <row class="input-wrapper">
+            <image class="icon" id="mobilePhone-icon"></image>
+            <input id="mobilePhone" class="input" placeholder="@{mobile_phone}"></input>
+            <view class="input-line"></view>
+        </row>
+        <row class="input-wrapper">
+            <image class="icon" id="password-icon"></image>
+            <input id="password" class="input" placeholder="@{password}"></input>
+            <view class="input-line"></view>
+        </row>
+        <col class="signin-wrapper">
+            <label class="signin-text">@{login}</label>
+            <button id="signin" class="signin-mask"></button>
+        </col>
+        
+        <linear orientation="v" class="signup-wrapper">
+            <label class="signup-text">@{no_account_now_signup}</label>
+            <view class="signup-line"></view>
+            <button id="signup" class="signup-mask"></button>
+        </linear>
+    </col>
+    
+    <style type="text/css">
+        .wrapper {
+            width: 100%;
+            height: 100%;
+        }
+        
+        #logo{
+            width: 100%;
+            height: 50px;
+            margin-top: 100px;
+            margin-left: 0px;
+            margin-bottom: 20px;
+            image-src: url(a1_logo.png);
+        }
+        
+        .input-wrapper {
+            width: 90%;
+            height: 40px;
+            float: center;
+            margin-top: 20px;
+        }
+        
+        .icon {
+            width: 40px;
+            height: 100%;
+            margin-left: 0px;
+            image-mode: center;
+        }
+        
+        #mobilePhone-icon {
+            image-src: url(ico_phone.png);
+        }
+        
+        #password-icon {
+            image-src: url(ico_password.png);
+        }
+        
+        .input {
+            width: 85%;
+            height: 100%;
+            font-size: 17px;
+            text-color: #B2B2B2;
+            text-align: left;
+            margin-left: 10px;
+            margin-top: 0px;
+            input-clear: never;
+        }
+        
+        #mobilePhone {
+            input-keyboard: number;
+            input-return-key: next;
+            maxlength: 11;
+        }
+        
+        #password {
+            input-keyboard: ascii;
+            input-secure: yes;
+            input-return-key: done;
+            maxlength: 20;
+        }
+        
+        .input-line {
+            width: 100%;
+            height: 1px;
+            position: absolute;
+            bottom: 0px;
+            background-color: #B2B2B2;
+        }
+        
+        .signin-wrapper {
+            width: 90%;
+            height: 40px;
+            margin-top: 50px;
+            float: center;
+        }
+        
+        .signin-text {
+            width: 100%;
+            height: 100%;
+            font-size: 17px;
+            text-align: center;
+            text-color: #ffffff;
+            border-radius: 5px;
+            background-color: #25BDE8;
+        }
+        
+        .signin-mask {
+            width: 100%;
+            height: 100%;
+            background-color: clearColor;
+            position: absolute;
+        }
+        
+        .signup-wrapper{
+            width: 136px;
+            height: 20px;
+            margin-top: 30px;
+            float: center;
+        }
+        
+        .signup-text {
+            width: 100%;
+            height: 100%;
+            font-size: 15px;
+            text-align: center;
+            float: center;
+            text-color: #585858;
+        }
+        
+        .signup-line{
+            width: 100%;
+            height: 1px;
+            position: absolute;
+            bottom: 0px;
+            background-color: #585858;
+        }
+        
+        .signup-mask {
+            width: 100%;
+            height: 100%;
+            background-color: clearColor;
+            position: absolute;
+            left: 0px;
+        }
+        
+        @media(device:iphone4) {
+            #logo { margin-top: 60px; }
+        }
+    
+        </style>
+</ui>

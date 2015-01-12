@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="F4_RefferalShareCell_iPhone">
+	
+	<col class="wrapper">
+		<image id="bg"/>
+		<row class="activities">
+			<col id="weibo" class="activity">
+				<image class="activity-icon" src="weibo_share.png"/>
+			</col>
+			<col id="weixin" class="activity">
+				<image class="activity-icon" src="weixin_share.png"/>
+			</col>
+			<col id="sms" class="activity">
+				<image class="activity-icon" src="sms_share.png"/>
+			</col>
+			<col id="copy" class="activity">
+				<image class="activity-icon" src="copy_share.png"/>
+			</col>
+		</row>
+        <button id="cancel">@{cancel_share}</button>
+	</col>
+	
+	<style type="text/css">
+		
+		.wrapper {
+			width: 100%;
+			height: 100%;
+		}
+	
+		#bg {
+			position: absolute;
+			left: 0px;
+			top: 0px;
+			width: 100%;
+			height: 100%;
+			background-color: #39bced;
+			opacity: 0.8;
+		}
+		
+		.activities {
+			width: 100%;
+			height: 70%;
+			padding-left: 6px;
+			padding-right: 6px;
+		}
+		
+		.activity {
+			width: 25%;
+			height: 100%;
+		}
+	
+		.icon {
+			width: 100%;
+			height: 100%;
+			image-mode: center;
+		}
+	
+		#cancel {
+			position: absolute;
+			left: 0px;
+			bottom: 10px;
+			width: 100%;
+			height: 48px;
+			padding-left: 10px;
+			padding-right: 10px;
+			color: #39bced;
+			font-size: 16px;
+			font-weight: lighter;
+			border-radius: 4px;
+			background-color: white;
+		}
+
+	</style>
+	
+</ui>

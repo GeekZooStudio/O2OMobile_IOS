@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ui namespace="D1_OrderCommentCell_iPhone">
+    
+    <row class="wrapper" id="mask">
+        <label class="comment green">@{look_up_evaluate}</label>
+        <image id="accessory"/>
+    </row>
+    <view class="line"/>
+    
+    <style type="text/css">
+        .wrapper {
+            width: 100%;
+            height: 35px;
+        }
+    
+        .line {
+            height: 1px;
+            width: 100%;
+            background-color: #d8d8d8;
+            margin-top: 10px;
+        }
+        
+        .comment {
+            font-size: 16px;
+            height: 20px;
+            width: 260px;
+            margin-left: 22px;
+            margin-top: 15px;
+        }
+        #accessory {
+            top: 15px;
+            right: 15px;
+            width: 10px;
+            height: 18px;
+            position: absolute;
+            image-src:url(icon_indicator.png);
+        }
+    </style>
+</ui>
